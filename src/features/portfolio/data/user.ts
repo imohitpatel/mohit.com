@@ -17,7 +17,7 @@ export const USER = {
   phoneNumber: "ODEwIDMwNDY1NDc", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "aW1vaGl0cGF0ZWxAb3V0bG9vay5jb20", // base64 encoded
   website: "https://imohitpatel.com",
-  jobTitle: "Design Engineer",
+  jobTitle: "Software Engineer",
   jobs: [
     {
       title: "Intern",
@@ -32,7 +32,7 @@ export const USER = {
   ],
   //   about: `
   // Hello, World! I am Mohit Patel — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
-   // **Electrical Engineering undergraduate (2028)** at **Jabalpur Engineering College**, with a strong focus on **AI, Computer Vision, and Geospatial Technologies**.
+  // **Electrical Engineering undergraduate (2028)** at **Jabalpur Engineering College**, with a strong focus on **AI, Computer Vision, and Geospatial Technologies**.
   // Skilled in **Python**, **C++**, **JavaScript**, and modern data & ML libraries; experienced in building real-time, data-driven systems.
   // Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
   // Researcher of [Wildlife Monitoring & Water Source Mapping using AI](https://drive.google.com/drive/folders/1yts7evJLD9Ck-AiONdunVbXCjfEmdrlI?usp=drive_link) (2024 - 25):

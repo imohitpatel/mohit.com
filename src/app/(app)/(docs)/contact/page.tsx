@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
-import { SPONSORSHIP_URL } from "@/config/site";
-import { sponsors } from "@/features/sponsors/data";
+import { contactHIP_URL } from "@/config/site";
+import { contact } from "@/features/contact/data";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Sponsors",
+  title: "Contact",
   description:
     "Grateful for the support that helps me grow and maintain high-quality projects.",
 };
@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <div className="min-h-svh">
       <div className="screen-line-after px-4">
-        <h1 className="text-3xl font-semibold">Sponsors</h1>
+        <h1 className="text-3xl font-semibold">Contact</h1>
       </div>
 
       <div className="p-4">
@@ -32,7 +32,7 @@ export default function Page() {
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {sponsors.map((item) => (
+          {contact.map((item) => (
             <a
               key={item.name}
               className={cn(
@@ -75,7 +75,7 @@ export default function Page() {
             </a>
           ))}
 
-          {Array.from({ length: Math.max(0, 6 - sponsors.length) }).map(
+          {Array.from({ length: Math.max(0, 6 - contact.length) }).map(
             (_, i) => (
               <PlaceholderLogo key={`placeholder-${i}`} />
             )
@@ -85,8 +85,8 @@ export default function Page() {
 
       <div className="flex justify-center p-2">
         <Button asChild>
-          <a href={SPONSORSHIP_URL} target="_blank" rel="noopener noreferrer">
-            Become a Sponsor
+          <a href={contactHIP_URL} target="_blank" rel="noopener noreferrer">
+            Hire Me
           </a>
         </Button>
       </div>

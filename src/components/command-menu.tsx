@@ -135,8 +135,8 @@ const SOCIAL_LINK_ITEMS: CommandLinkItem[] = SOCIAL_LINKS.map((item) => ({
 
 const OTHER_LINK_ITEMS: CommandLinkItem[] = [
   {
-    title: "Sponsors",
-    href: "/sponsors",
+    title: "Contact",
+    href: "/contact",
     icon: HeartIcon,
   },
   {
@@ -554,8 +554,8 @@ function postToCommandLinkItem(post: Post): CommandLinkItem {
 
   const IconComponent = isComponent
     ? (props: LucideProps) => (
-        <ComponentIcon {...props} variant={post.metadata.icon} />
-      )
+      <ComponentIcon {...props} variant={post.metadata.icon} />
+    )
     : undefined;
 
   return {

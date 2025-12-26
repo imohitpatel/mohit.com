@@ -1,6 +1,6 @@
 import type { Sponsor } from "./types";
 
-export const sponsors: Sponsor[] = [
+export const contact: Sponsor[] = [
   {
     type: "organization",
     name: "Quaric",
@@ -16,9 +16,9 @@ export const sponsors: Sponsor[] = [
   },
   {
     type: "individual",
-    name: "Ajay Patel",
+    name: "Mohan Patel",
     tagline: "shadcn/studio",
-    website: "https://github.com/ajaypatelaj",
+    website: "https://github.com/ajayp",
     avatar: "https://avatars.githubusercontent.com/u/749684?v=4",
   },
 ];

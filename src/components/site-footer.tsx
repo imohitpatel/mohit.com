@@ -17,15 +17,15 @@ export function SiteFooter() {
 
         <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
           built with love by{" "}
-          
-            <a
-              className="link"
-              href="https://linkedin.com/in/imohitpatel"
-              target="_blank"
-              rel="noopener"
-            >
-              imohitpatel
-            </a>
+
+          <a
+            className="link"
+            href="https://linkedin.com/in/imohitpatel"
+            target="_blank"
+            rel="noopener"
+          >
+            imohitpatel
+          </a>
           {/*
           . The source code is available on{" "}
           <a
@@ -43,10 +43,10 @@ export function SiteFooter() {
           <div className="mx-auto flex items-center justify-center gap-3 border-x border-edge bg-background px-4">
             <Link
               className="flex font-mono text-xs font-medium text-muted-foreground"
-              href="/sponsors"
+              href="/contact"
             >
               connect with me
-           </Link>
+            </Link>
             {/*
             <Separator />
 
@@ -56,7 +56,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              imohitpatel
+              
             </a>
             */}
           </div>

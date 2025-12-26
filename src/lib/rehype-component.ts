@@ -38,14 +38,14 @@ export function rehypeComponent() {
             const component = Index[name];
             src = fileName
               ? component.files.find((file: unknown) => {
-                  if (typeof file === "string") {
-                    return (
-                      file.endsWith(`${fileName}.tsx`) ||
-                      file.endsWith(`${fileName}.ts`)
-                    );
-                  }
-                  return false;
-                }) || component.files[0]?.path
+                if (typeof file === "string") {
+                  return (
+                    file.endsWith(`${fileName}.tsx`) ||
+                    file.endsWith(`${fileName}.ts`)
+                  );
+                }
+                return false;
+              }) || component.files[0]?.path
               : component.files[0]?.path;
           }
 

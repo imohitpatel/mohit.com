@@ -32,14 +32,14 @@ export function CertificationItem({
           width={32}
           height={32}
           quality={100}
-          className="mx-4 flex size-6 shrink-0 select-none"
+          className="mx-4 flex size-8 shrink-0 select-none"
           unoptimized
           aria-hidden
         />
       ) : (
         <div
           className={cn(
-            "mx-4 flex size-6 shrink-0 items-center justify-center rounded-lg select-none",
+            "mx-4 flex size-1 shrink-0 items-center justify-center rounded-lg select-none",
             "border border-muted-foreground/15 ring-1 ring-edge ring-offset-1 ring-offset-background",
             "bg-muted text-muted-foreground [&_svg]:size-4"
           )}

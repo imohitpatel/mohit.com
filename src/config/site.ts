@@ -20,6 +20,10 @@ export const MAIN_NAV: NavItem[] = [
     href: "/",
   },
   {
+    title: "Contact",
+    href: "/contact",
+  },
+  {
     title: "Components",
     href: "/components",
   },
@@ -27,17 +31,13 @@ export const MAIN_NAV: NavItem[] = [
     title: "Blog",
     href: "/blog",
   },
-  // {
-  //   title: "Sponsors",
-  //   href: "/sponsors",
-  // },
 ];
 
 export const GITHUB_USERNAME = "imohitpatel";
 export const SOURCE_CODE_GITHUB_REPO = "imohitpatel.com";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/imohitpatel/chanhdai.com";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/imohitpatel/mohit.com";
 
-export const SPONSORSHIP_URL = "https://github.com/sponsors/imohitpatel";
+export const contactHIP_URL = "https://github.com/contact/imohitpatel";
 
 export const UTM_PARAMS = {
   utm_source: "mohitpatel.com",

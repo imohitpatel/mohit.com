@@ -3,7 +3,7 @@
   "name": "shimmering-text",
   "type": "registry:component",
   "title": "Shimmering Text",
-  "author": "ncdai <dai@chanhdai.com>",
+  "author": "imohitpatel <imohitpatel@outlook.com>",
   "description": "Smooth shimmering text animation built with Motion.",
   "dependencies": [
     "motion"

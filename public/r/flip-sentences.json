@@ -3,7 +3,7 @@
   "name": "flip-sentences",
   "type": "registry:component",
   "title": "Flip Sentences",
-  "author": "ncdai <dai@chanhdai.com>",
+  "author": "imohitpatel <imohitpatel@outlook.com>",
   "dependencies": [
     "motion"
   ],
