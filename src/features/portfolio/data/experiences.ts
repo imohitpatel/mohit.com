@@ -4,7 +4,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "mckinsey",
     companyName: "McKinsey & Co",
-    companyLogo: "https://assets.chanhdai.com/images/companies/simplamo.webp",
+    companyLogo: "https://1000logos.net/wp-content/uploads/2021/09/McKinsey-Logo.png",
     positions: [
       {
         id: "20f8bfe5-b6a3-4b0d-ac2f-6fccd50d417e",
@@ -33,7 +33,8 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "Automotive Society Of JEC",
     companyName: "Automotive Society Of JEC",
-    companyLogo: "https://www.jecjabalpur.ac.in/images/jec_logo.png",
+    companyLogo: "https://1000logos.net/upload/uploads/temp/logo_temp_694e6782156413.11339299.jpg",
+    companyWebsite: "https://www.facebook.com/photo/?fbid=407371051565801&set=a.407371034899136",
     positions: [
       {
         id: "13bd34c3-db84-4fad-8132-a6c89i456847e",
@@ -46,7 +47,7 @@ export const EXPERIENCES: Experience[] = [
         description: `- Core member of the Electrical and Electronics team for the SIEP E-Bike Challenge 2026 organizing by ISIE India.
 - Worked on chassis integration, electrical wiring, and layout planning.
 - Assisted in automation-related tasks and system integration for the electric bike.`,
-        icon: "",
+        icon: "code",
         skills: [
           "Electrical Wiring",
           "Electronics Basics",
@@ -131,7 +132,7 @@ export const EXPERIENCES: Experience[] = [
           "Sketch"],
       },
     ],
-    isCurrentEmployer: false,
+    isCurrentEmployer: true,
   },
   {
     id: "freelance",

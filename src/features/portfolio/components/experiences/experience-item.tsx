@@ -1,20 +1,32 @@
 import Image from "next/image";
 import React from "react";
 
+import { cn } from "@/lib/utils";
+
 import type { Experience } from "../../types/experiences";
 import { ExperiencePositionItem } from "./experience-position-item";
 
 export function ExperienceItem({ experience }: { experience: Experience }) {
+  const isLargeLogo =
+    experience.id === "mckinsey" ||
+    experience.id === "Automotive Society Of JEC";
+  const logoSize = isLargeLogo ? 32 : 24;
+
   return (
     <div className="screen-line-after space-y-4 py-4">
       <div className="flex items-center gap-3">
-        <div className="flex size-6 shrink-0 items-center justify-center select-none">
+        <div
+          className={cn(
+            "flex shrink-0 items-center justify-center select-none",
+            isLargeLogo ? "size-8" : "size-6"
+          )}
+        >
           {experience.companyLogo ? (
             <Image
               src={experience.companyLogo}
               alt={experience.companyName}
-              width={24}
-              height={24}
+              width={logoSize}
+              height={logoSize}
               quality={100}
               className="rounded-full"
               unoptimized
@@ -25,9 +37,21 @@ export function ExperienceItem({ experience }: { experience: Experience }) {
           )}
         </div>
 
-        <h3 className="text-lg leading-snug font-medium">
-          {experience.companyName}
-        </h3>
+        {experience.companyWebsite ? (
+          <a
+            href={experience.companyWebsite}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg leading-snug font-medium underline-offset-4 hover:underline"
+            aria-label={`${experience.companyName} website`}
+          >
+            {experience.companyName}
+          </a>
+        ) : (
+          <h3 className="text-lg leading-snug font-medium">
+            {experience.companyName}
+          </h3>
+        )}
 
         {experience.isCurrentEmployer && (
           <span className="relative flex items-center justify-center">
