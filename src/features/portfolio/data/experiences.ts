@@ -2,7 +2,7 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
-    id: "simplamo",
+    id: "mckinsey",
     companyName: "McKinsey & Co",
     companyLogo: "https://assets.chanhdai.com/images/companies/simplamo.webp",
     positions: [
@@ -33,7 +33,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "Automotive Society Of JEC",
     companyName: "Automotive Society Of JEC",
-    companyLogo: "https://assets.chanhdai.com/images/companies/tungtung.webp",
+    companyLogo: "https://www.jecjabalpur.ac.in/images/jec_logo.png",
     positions: [
       {
         id: "13bd34c3-db84-4fad-8132-a6c89i456847e",
@@ -46,7 +46,7 @@ export const EXPERIENCES: Experience[] = [
         description: `- Core member of the Electrical and Electronics team for the SIEP E-Bike Challenge 2026 organizing by ISIE India.
 - Worked on chassis integration, electrical wiring, and layout planning.
 - Assisted in automation-related tasks and system integration for the electric bike.`,
-        icon: "code",
+        icon: "",
         skills: [
           "Electrical Wiring",
           "Electronics Basics",
@@ -98,14 +98,14 @@ export const EXPERIENCES: Experience[] = [
         icon: "code",
         skills: [
           "CAD Design",
-        "SolidWorks",
-        "AutoCAD",
-        "Electrical Layout Basics",
-        "3D Modeling",
-        "Drafting",
-        "Technical Training",
-        "Team Leadership",
-        "Graphic Design",
+          "SolidWorks",
+          "AutoCAD",
+          "Electrical Layout Basics",
+          "3D Modeling",
+          "Drafting",
+          "Technical Training",
+          "Team Leadership",
+          "Graphic Design",
         ],
       },
       {
@@ -121,14 +121,14 @@ export const EXPERIENCES: Experience[] = [
 - Maintained structured technical records and official documentation.`,
         icon: "design",
         skills: [
-        "Technical Content Writing",
-        "Research & Analysis",
-        "Article Writing",
-        "Project Report Writing",
-        "Government Documentation",
-        "Attention to Detail",
-        "Professional Communication",
-        "Sketch"],
+          "Technical Content Writing",
+          "Research & Analysis",
+          "Article Writing",
+          "Project Report Writing",
+          "Government Documentation",
+          "Attention to Detail",
+          "Professional Communication",
+          "Sketch"],
       },
     ],
     isCurrentEmployer: false,
@@ -195,7 +195,7 @@ export const EXPERIENCES: Experience[] = [
           start: "10.2024",
           end: "2028",
         },
-        icon: "education",
+        issuerLogoURL: "https://www.jecjabalpur.ac.in/images/jec_logo.png",
         description: `- Currently pursuing a Bachelor's degree in Electrical Engineering.
 - English proficiency: B1 level.
 
@@ -228,7 +228,7 @@ export const EXPERIENCES: Experience[] = [
           start: "2021",
           end: "2023",
         },
-        icon: "education",
+        issuerLogoURL: "https://www.jecjabalpur.ac.in/images/jec_logo.png",
         description: `- Studied 10+2 in Mathematics at Kendriya Vidyalaya.
 
 - Activities and Societies:
