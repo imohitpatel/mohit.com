@@ -32,7 +32,7 @@ const projects: Project[] = [
   },
 ];
 
-export default function Page(): JSX.Element {
+export default function Page() {
   return (
     <main
       style={{
