@@ -12,7 +12,7 @@ export const contact: Sponsor[] = [
     name: "David Haz",
     tagline: "React Bits",
     website: "https://github.com/DavidHDev",
-    avatar: "https://avatars.githubusercontent.com/u/48634587?v=4",
+    avatar: "assets/mplogo.png",
   },
   {
     type: "individual",

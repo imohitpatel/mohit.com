@@ -1,12 +1,12 @@
-# AI Agent Guidelines for chanhdai.com
+# AI Agent Guidelines for mohit.com
 
-This guide provides essential information for AI agents working with the chanhdai.com codebase - a Next.js dev portfolio, blog, and component registry website.
+This guide provides essential information for AI agents working with the mohit.com codebase - a Next.js dev portfolio, blog, and component registry website.
 
 ## Project Overview
 
-**chanhdai.com** is a minimal, pixel-perfect dev portfolio, component registry, and blog built with modern web technologies. It serves as:
+**mohit.com** is a minimal, pixel-perfect dev portfolio, component registry, and blog built with modern web technologies. It serves as:
 
-- Personal portfolio for Nguyen Chanh Dai (@ncdai)
+- Personal portfolio for Mohit Patel (@imohitpatel)
 - Component registry using shadcn/ui system
 - Blog with MDX content
 - Showcase for custom React components

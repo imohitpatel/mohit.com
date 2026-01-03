@@ -1,32 +1,20 @@
 import Image from "next/image";
 import React from "react";
 
-import { cn } from "@/lib/utils";
-
 import type { Experience } from "../../types/experiences";
 import { ExperiencePositionItem } from "./experience-position-item";
 
 export function ExperienceItem({ experience }: { experience: Experience }) {
-  const isLargeLogo =
-    experience.id === "mckinsey" ||
-    experience.id === "Automotive Society Of JEC";
-  const logoSize = isLargeLogo ? 32 : 24;
-
   return (
     <div className="screen-line-after space-y-4 py-4">
       <div className="flex items-center gap-3">
-        <div
-          className={cn(
-            "flex shrink-0 items-center justify-center select-none",
-            isLargeLogo ? "size-8" : "size-6"
-          )}
-        >
+        <div className="flex size-6 shrink-0 items-center justify-center select-none">
           {experience.companyLogo ? (
             <Image
               src={experience.companyLogo}
               alt={experience.companyName}
-              width={logoSize}
-              height={logoSize}
+              width={24}
+              height={24}
               quality={100}
               className="rounded-full"
               unoptimized

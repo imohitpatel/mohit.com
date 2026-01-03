@@ -4,7 +4,7 @@ A minimal, pixel-perfect dev portfolio, component registry, and blog to showcase
 
 Check out the live site: [mohit.com](https://imohitpatel.com)
 
-[![screenshot-dark](https://assets.chanhdai.com/images/screenshot-desktop-dark.webp?t=1764345394#gh-dark-mode-only)](https://github.com/imohitpatel/mohit.com#gh-dark-mode-only)
+[![screenshot-dark](https://assets.mohitpatel.com/images/screenshot-desktop-dark.webp?t=1764345394#gh-dark-mode-only)](https://github.com/imohitpatel/mohit.com#gh-dark-mode-only)
 [![screenshot-light](https://assets.mohit.com/images/screenshot-desktop-light.webp?t=1764345394#gh-light-mode-only)](https://github.com/imohitpatel/mohit.com#gh-light-mode-only)
 
 ## Overview
@@ -72,7 +72,7 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 
 ## Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=ncdai/chanhdai.com)](https://github.com/ncdai/chanhdai.com/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=imohitpatel/mohit.com)](https://github.com/imohitpatel/mohit.com/graphs/contributors)
 
 > Made with [contrib.rocks](https://contrib.rocks)
 
@@ -82,7 +82,7 @@ You're free to use my code! Just make sure to <ins>remove all my personal inform
 
 ## Star History
 
-[![Star History](https://starchart.cc/ncdai/chanhdai.com.svg?variant=adaptive&line=%23d37f2c)](https://starchart.cc/ncdai/chanhdai.com)
+[![Star History](https://starchart.cc/imohitpatel/mohit.com.svg?variant=adaptive&line=%23d37f2c)](https://starchart.cc/imohitpatel/mohit.com)
 
 ## Acknowledgments
 

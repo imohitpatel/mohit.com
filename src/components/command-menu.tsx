@@ -43,8 +43,6 @@ import { useSound } from "@/hooks/use-sound";
 import { trackEvent } from "@/lib/events";
 import { copyText } from "@/utils/copy";
 
-import { ChanhDaiMark, getMarkSVG } from "./chanhdai-mark";
-import { getWordmarkSVG } from "./chanhdai-wordmark";
 import { ComponentIcon, Icons } from "./icons";
 import { Button } from "./ui/button";
 import { Kbd, KbdGroup } from "./ui/kbd";
@@ -64,7 +62,7 @@ const MENU_LINKS: CommandLinkItem[] = [
   {
     title: "Portfolio",
     href: "/",
-    icon: ChanhDaiMark,
+    iconImage: "/assets/mplogo.png",
   },
   {
     title: "Components",
@@ -329,39 +327,9 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
           />
 
           <CommandGroup heading="Brand Assets">
-            <CommandItem
-              onSelect={() => {
-                handleCopyText(
-                  getMarkSVG(resolvedTheme === "light" ? "#000" : "#fff"),
-                  "Copied Mark as SVG"
-                );
-              }}
-            >
-              <ChanhDaiMark />
-              Copy Mark as SVG
-            </CommandItem>
-
-            <CommandItem
-              onSelect={() => {
-                handleCopyText(
-                  getWordmarkSVG(resolvedTheme === "light" ? "#000" : "#fff"),
-                  "Copied Logotype as SVG"
-                );
-              }}
-            >
-              <TypeIcon />
-              Copy Logotype as SVG
-            </CommandItem>
-
-            <CommandItem
-              onSelect={() => handleOpenLink("/blog/chanhdai-brand")}
-            >
-              <TriangleDashedIcon />
-              Brand Guidelines
-            </CommandItem>
 
             <CommandItem asChild>
-              <a href="https://assets.chanhdai.com/chanhdai-brand.zip" download>
+              <a href="assets/mplogo.png" download>
                 <DownloadIcon />
                 Download Brand Assets
               </a>
@@ -493,12 +461,6 @@ function buildCommandMetaMap() {
   commandMetaMap.set("Dark", { commandKind: "command" });
   commandMetaMap.set("Auto", { commandKind: "command" });
 
-  commandMetaMap.set("Copy Mark as SVG", {
-    commandKind: "command",
-  });
-  commandMetaMap.set("Copy Logotype as SVG", {
-    commandKind: "command",
-  });
   commandMetaMap.set("Download Brand Assets", {
     commandKind: "command",
   });
@@ -530,8 +492,6 @@ function CommandMenuFooter() {
       <div className="flex h-10" />
 
       <div className="absolute inset-x-0 bottom-0 flex h-10 items-center justify-between gap-2 border-t bg-zinc-100/30 px-4 text-xs font-medium dark:bg-zinc-800/30">
-        <ChanhDaiMark className="size-6 text-muted-foreground" aria-hidden />
-
         <div className="flex shrink-0 items-center gap-2">
           <span>{ENTER_ACTION_LABELS[selectedCommandKind]}</span>
           <Kbd>

@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
 - 🔄 Infinite loop scrolling
 - 🎨 Unstyled components for complete style customization
 - ⚡️ Easy installation via shadcn CLI`,
-    logo: "https://assets.chanhdai.com/images/project-logos/react-wheel-picker.svg",
+    logo: "assets/mplogo.png",
     isExpanded: true,
   },
   {
@@ -42,7 +42,7 @@ export const PROJECTS: Project[] = [
       "Vercel",
     ],
     description: `A minimal, pixel-perfect dev portfolio, contact, 3D visualization project, and blog.`,
-    logo: "https://assets.chanhdai.com/images/project-logos/chanhdaidotcom.svg",
+    logo: "assets/mplogo.png",
   },
   {
     id: "tatkal",
@@ -73,5 +73,6 @@ export const PROJECTS: Project[] = [
 - Requirement: Built a custom model for University student timetable scheduling with role-based functionalities using Python technologies
 - Project Score: 10/10
 - Source Code: https://github.com/imohitpatel/genetic-algorithm-model`,
+logo: "public/assets/genalgo.png",
   },
 ];

@@ -3,7 +3,7 @@
   "name": "wheel-picker",
   "type": "registry:component",
   "title": "Wheel Picker",
-  "author": "ncdai <dai@chanhdai.com>",
+  "author": "ncdai <dai@mohitpatel.com>",
   "description": "iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.",
   "dependencies": [
     "@ncdai/react-wheel-picker"
@@ -18,5 +18,5 @@
       "type": "registry:component"
     }
   ],
-  "docs": "https://chanhdai.com/components/react-wheel-picker"
+  "docs": "https://mohitpatel.com/components/react-wheel-picker"
 }

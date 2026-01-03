@@ -34,7 +34,6 @@ export const EXPERIENCES: Experience[] = [
     id: "Automotive Society Of JEC",
     companyName: "Automotive Society Of JEC",
     companyLogo: "https://1000logos.net/upload/uploads/temp/logo_temp_694e6782156413.11339299.jpg",
-    companyWebsite: "https://www.facebook.com/photo/?fbid=407371051565801&set=a.407371034899136",
     positions: [
       {
         id: "13bd34c3-db84-4fad-8132-a6c89i456847e",

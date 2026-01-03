@@ -42,7 +42,7 @@ export function SiteFooter() {
         <div className="screen-line-before screen-line-after flex w-full before:z-1 after:z-1">
           <div className="mx-auto flex items-center justify-center gap-3 border-x border-edge bg-background px-4">
             <Link
-              className="flex font-mono text-xs font-medium text-muted-foreground"
+              className="flex font-mono text-sm font-medium text-muted-foreground"
               href="/contact"
             >
               connect with me

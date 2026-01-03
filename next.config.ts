@@ -4,7 +4,7 @@ import path from "path";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   transpilePackages: ["next-mdx-remote"],
-  allowedDevOrigins: ["chanhdai-macbook.local"],
+  allowedDevOrigins: ["mohitpatel.local"],
   turbopack: {
     root: path.join(__dirname, "."),
   },
@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "assets.chanhdai.com",
+        hostname: "assets.mohitpatel.com",
         port: "",
       },
       {

@@ -79,16 +79,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://github.com/imohitpatel.png",
+        url: "assets/mplogo.png",
         sizes: "any",
       },
       {
-        url: "https://github.com/imohitpatel.png",
+        url: "assets/mplogo.png",
         type: "image/svg+xml",
       },
     ],
     apple: {
-      url: "https://github.com/imohitpatel.png",
+      url: "assets/mplogo.png",
       type: "image/png",
       sizes: "180x180",
     },
