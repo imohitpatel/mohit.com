@@ -1,5 +1,4 @@
-// /src/app/(app)/(docs)/components/page.tsx
-import Link from "next/link";
+// /import Link from "next/link";
 
 type Project = {
   id: string;
@@ -94,7 +93,7 @@ export default function Page() {
                 href={p.href}
                 aria-label={`Open ${p.title}`}
                 style={{
-                  display: "block",
+
                   textDecoration: "none",
                   borderRadius: 14,
                   overflow: "hidden",
